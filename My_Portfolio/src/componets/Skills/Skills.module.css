@@ -1,0 +1,54 @@
+@import "../../vars.css";
+
+.container {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: 700;
+    color: var(--color-text);
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.skillsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    margin-top: 20px;
+}
+
+.skillCard {
+    background: rgba(165, 215, 232, 0.42);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    width: 120px;
+}
+
+.skillCard:hover {
+    background: rgba(165, 215, 232, 0.7);
+}
+
+.skillImg {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.skillName {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+@media screen and (max-width: 600px) {
+    .skillsGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
