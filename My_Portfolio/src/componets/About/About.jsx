@@ -5,7 +5,7 @@ export const About = () => {
 <section className={styles.container} id="About">
     <h2 className={styles.title}>About</h2>
     <div className={styles.content}>
-        <img className={styles.img} src="https://profolio-git-main-siddhant-dubeys-projects-a7386c4f.vercel.app/Public/7.44.36_86dfdb89.jpg" alt="" />
+        <img className={styles.img} src="../Public/7.44.36_86dfdb89.jpg" alt="" />
      <ul className={styles.aboutItems}>
        <li className={styles.aboutItem}>
         <div className={styles.aboutItemText}>

@@ -2,16 +2,16 @@ import React from "react";
 import styles from "./Skills.module.css";
 
 const skillsData = [
-  { name: "HTML", img: "https://profolio-git-main-siddhant-dubeys-projects-a7386c4f.vercel.app/Public/html.png" },
-  { name: "CSS", img: "https://profolio-git-main-siddhant-dubeys-projects-a7386c4f.vercel.app/Public/css.png" },
-  { name: "JavaScript", img: "https://profolio-git-main-siddhant-dubeys-projects-a7386c4f.vercel.app/Public/js.png" },
-  { name: "SQL", img: "https://profolio-git-main-siddhant-dubeys-projects-a7386c4f.vercel.app/Public/sql.png" },
-  { name: "PHP", img: "https://profolio-git-main-siddhant-dubeys-projects-a7386c4f.vercel.app/Public/php.png" },
-  { name: "Java", img: "https://profolio-git-main-siddhant-dubeys-projects-a7386c4f.vercel.app/Public/java.png" },
-  { name: "React", img: "https://profolio-git-main-siddhant-dubeys-projects-a7386c4f.vercel.app/Public/react.png" },
-  { name: "MongoDB", img: "https://profolio-git-main-siddhant-dubeys-projects-a7386c4f.vercel.app/Public/mongo.png" },
-  { name: "Express.js", img: "https://profolio-git-main-siddhant-dubeys-projects-a7386c4f.vercel.app/Public/express.png" },
-  { name: "Node.js", img: "https://profolio-git-main-siddhant-dubeys-projects-a7386c4f.vercel.app/Public/image.png" }
+  { name: "HTML", img: "../Public/html.png" },
+  { name: "CSS", img: "../Public/css.png" },
+  { name: "JavaScript", img: "../Public/js.png" },
+  { name: "SQL", img: "../Public/sql.png" },
+  { name: "PHP", img: "../Public/php.png" },
+  { name: "Java", img: "../Public/java.png" },
+  { name: "React", img: "../Public/react.png" },
+  { name: "MongoDB", img: "../Public/mongo.png" },
+  { name: "Express.js", img: "../Public/express.png" },
+  { name: "Node.js", img: "../Public/image.png" }
 ];
 
 export const Skills = () => {
@@ -21,7 +21,7 @@ export const Skills = () => {
       <div className={styles.skillsGrid}>
         {skillsData.map((skill, index) => (
           <div className={styles.skillCard} key={index}>
-            <img src={`${skill.img}`} alt={skill.name} className={styles.skillImg} />
+            <img src={`/images/${skill.img}`} alt={skill.name} className={styles.skillImg} />
             <p className={styles.skillName}>{skill.name}</p>
           </div>
         ))}
