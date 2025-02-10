@@ -21,7 +21,7 @@ export const Skills = () => {
       <div className={styles.skillsGrid}>
         {skillsData.map((skill, index) => (
           <div className={styles.skillCard} key={index}>
-            <img src={`/images/${skill.img}`} alt={skill.name} className={styles.skillImg} />
+            <img src={`${skill.img}`} alt={skill.name} className={styles.skillImg} />
             <p className={styles.skillName}>{skill.name}</p>
           </div>
         ))}
