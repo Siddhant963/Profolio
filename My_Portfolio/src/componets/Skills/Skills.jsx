@@ -2,16 +2,16 @@ import React from "react";
 import styles from "./Skills.module.css";
 
 const skillsData = [
-  { name: "HTML", img: "../assest/html.png" },
-  { name: "CSS", img: "../assest/css.png" },
-  { name: "JavaScript", img: "../assest/js.png" },
-  { name: "SQL", img: "../assest/sql.png" },
-  { name: "PHP", img: "../assest/php.png" },
-  { name: "Java", img: "../assest/java.png" },
-  { name: "React", img: "../assest/react.png" },
-  { name: "MongoDB", img: "../assest/mongo.png" },
-  { name: "Express.js", img: "../assest/express.png" },
-  { name: "Node.js", img: "../assest/image.png" }
+  { name: "HTML", img: "../Public/html.png" },
+  { name: "CSS", img: "../Public/css.png" },
+  { name: "JavaScript", img: "../Public/js.png" },
+  { name: "SQL", img: "../Public/sql.png" },
+  { name: "PHP", img: "../Public/php.png" },
+  { name: "Java", img: "../Public/java.png" },
+  { name: "React", img: "../Public/react.png" },
+  { name: "MongoDB", img: "../Public/mongo.png" },
+  { name: "Express.js", img: "../Public/express.png" },
+  { name: "Node.js", img: "../Public/image.png" }
 ];
 
 export const Skills = () => {

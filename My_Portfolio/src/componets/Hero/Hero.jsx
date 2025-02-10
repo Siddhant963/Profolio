@@ -8,7 +8,7 @@ export const Hero = () => {
         <p className={styles.description}>I'm a full Stack Developer using SQL & PHP and a MERN Stack developer.Reach out if you'd like to learn more!</p>
    <a href="mailto:annpurnasha474@gmail.com"  className={styles.contectbtn}>Contact me</a>
    </div>
-   <img src="../assest/19.37.25_e3b50aa8.jpg" alt="my image "  className={styles.img}/>
+   <img src="../Public/19.37.25_e3b50aa8.jpg" alt="my image "  className={styles.img}/>
    <div className={styles.topBlur} />
    <div className={styles.bottomBlur} />
    
